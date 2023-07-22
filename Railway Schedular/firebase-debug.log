@@ -1,0 +1,164 @@
+[debug] [2018-03-12T18:00:58.840Z] ----------------------------------------------------------------------
+[debug] [2018-03-12T18:00:58.840Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\prodr\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-12T18:00:58.840Z] CLI Version:   3.17.6
+[debug] [2018-03-12T18:00:58.840Z] Platform:      win32
+[debug] [2018-03-12T18:00:58.840Z] Node Version:  v8.9.4
+[debug] [2018-03-12T18:00:58.840Z] Time:          Mon Mar 12 2018 13:00:58 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-12T18:00:58.840Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-12T18:00:58.856Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-12T18:00:58.856Z] > authorizing via signed-in user
+[debug] [2018-03-12T18:00:58.856Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-12T18:00:58.856Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/khVh19_U3XsRlhrJtg3uf3PkfOvhOUIdWJxSF9URTH8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Mar 12 2018 13:00:58 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-12T18:00:59.184Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-12T18:00:59.231Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/xander-train-scheduler  
+  
+ Mon Mar 12 2018 13:00:59 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-12T18:00:59.684Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-12T18:00:59.684Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/xander-train-scheduler/tokens  
+  
+ Mon Mar 12 2018 13:00:59 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-12T18:01:00.263Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-12T18:01:00.263Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/xander-train-scheduler  
+  
+ Mon Mar 12 2018 13:01:00 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-12T18:01:00.654Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\prodr\Desktop\xandromus.github.io\train-scheduler'...
+[info] 
+[debug] [2018-03-12T18:01:00.654Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/879356457846/clients/_:getWebAppConfig  
+  
+ Mon Mar 12 2018 13:01:00 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-12T18:01:01.294Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-03-12T23:00:36.445Z] ----------------------------------------------------------------------
+[debug] [2018-03-12T23:00:36.481Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\prodr\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-12T23:00:36.482Z] CLI Version:   3.17.6
+[debug] [2018-03-12T23:00:36.482Z] Platform:      win32
+[debug] [2018-03-12T23:00:36.482Z] Node Version:  v8.9.4
+[debug] [2018-03-12T23:00:36.484Z] Time:          Mon Mar 12 2018 18:00:36 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-12T23:00:36.484Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-12T23:00:36.591Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-12T23:00:36.591Z] > authorizing via signed-in user
+[debug] [2018-03-12T23:00:36.593Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-12T23:00:36.594Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/khVh19_U3XsRlhrJtg3uf3PkfOvhOUIdWJxSF9URTH8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Mar 12 2018 18:00:36 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-12T23:00:36.950Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-12T23:00:36.995Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/xander-train-scheduler  
+  
+ Mon Mar 12 2018 18:00:36 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-12T23:00:37.727Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-12T23:00:37.730Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/xander-train-scheduler/tokens  
+  
+ Mon Mar 12 2018 18:00:37 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-12T23:00:38.253Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-12T23:00:38.257Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/xander-train-scheduler  
+  
+ Mon Mar 12 2018 18:00:38 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-12T23:00:38.493Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\prodr\Desktop\xandromus.github.io\train-scheduler'...
+[info] 
+[debug] [2018-03-12T23:00:38.512Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/879356457846/clients/_:getWebAppConfig  
+  
+ Mon Mar 12 2018 18:00:38 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-12T23:00:38.837Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-03-13T18:20:26.677Z] ----------------------------------------------------------------------
+[debug] [2018-03-13T18:20:26.679Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\prodr\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-13T18:20:26.679Z] CLI Version:   3.17.6
+[debug] [2018-03-13T18:20:26.679Z] Platform:      win32
+[debug] [2018-03-13T18:20:26.680Z] Node Version:  v8.9.4
+[debug] [2018-03-13T18:20:26.680Z] Time:          Tue Mar 13 2018 13:20:26 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-13T18:20:26.680Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-13T18:20:26.785Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-13T18:20:26.785Z] > authorizing via signed-in user
+[debug] [2018-03-13T18:20:26.785Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-13T18:20:26.785Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/khVh19_U3XsRlhrJtg3uf3PkfOvhOUIdWJxSF9URTH8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Mar 13 2018 13:20:26 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-13T18:20:27.050Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-13T18:20:27.113Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/xander-train-scheduler  
+  
+ Tue Mar 13 2018 13:20:27 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-13T18:20:27.675Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-13T18:20:27.676Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/xander-train-scheduler/tokens  
+  
+ Tue Mar 13 2018 13:20:27 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-13T18:20:28.345Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-13T18:20:28.345Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/xander-train-scheduler  
+  
+ Tue Mar 13 2018 13:20:28 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-13T18:20:28.630Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\prodr\Desktop\xandromus.github.io\train-scheduler'...
+[info] 
+[debug] [2018-03-13T18:20:28.630Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/879356457846/clients/_:getWebAppConfig  
+  
+ Tue Mar 13 2018 13:20:28 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-13T18:20:29.165Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-03-15T21:55:43.583Z] ----------------------------------------------------------------------
+[debug] [2018-03-15T21:55:43.598Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\prodr\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-15T21:55:43.598Z] CLI Version:   3.17.6
+[debug] [2018-03-15T21:55:43.598Z] Platform:      win32
+[debug] [2018-03-15T21:55:43.598Z] Node Version:  v8.9.4
+[debug] [2018-03-15T21:55:43.598Z] Time:          Thu Mar 15 2018 16:55:43 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-15T21:55:43.598Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-15T21:55:43.723Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-15T21:55:43.723Z] > authorizing via signed-in user
+[debug] [2018-03-15T21:55:43.723Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-15T21:55:43.723Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/khVh19_U3XsRlhrJtg3uf3PkfOvhOUIdWJxSF9URTH8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Mar 15 2018 16:55:43 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-15T21:55:44.332Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-15T21:55:44.365Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/xander-train-scheduler  
+  
+ Thu Mar 15 2018 16:55:44 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-15T21:55:45.134Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-15T21:55:45.134Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/xander-train-scheduler/tokens  
+  
+ Thu Mar 15 2018 16:55:45 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-15T21:55:45.732Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-15T21:55:45.748Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/xander-train-scheduler  
+  
+ Thu Mar 15 2018 16:55:45 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-15T21:55:46.063Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\prodr\Desktop\xandromus.github.io\train-scheduler'...
+[info] 
+[debug] [2018-03-15T21:55:46.078Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/879356457846/clients/_:getWebAppConfig  
+  
+ Thu Mar 15 2018 16:55:46 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-15T21:55:46.552Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
