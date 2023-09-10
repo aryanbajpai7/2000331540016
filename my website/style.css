@@ -63,6 +63,9 @@ input{
     color: white;
     padding: 7px 0px;
 }
+.btn-1:hover{
+    color: black;
+}
 .btn-2{
     background-color: white;
     color: black;
