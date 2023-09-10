@@ -30,6 +30,9 @@ body{
     font-size: 1.8rem;
     color: white;
 }
+.logo:hover{
+    cursor: pointer;
+}
 .search-bar{
     display: flex;
     align-items: center;
